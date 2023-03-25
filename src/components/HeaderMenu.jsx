@@ -4,10 +4,11 @@ export default function HeaderMenu () {
   const sections = [
     'Home',
     'About',
-    'Projects'
+    'Projects',
+    'Experience'
   ]
   return (
-    <div className='grid grid-cols-3 gap-10'>
+    <div className='flex'>
       {sections.map(section => (
         <HeaderMenuItem section={section} key={section} />
       ))}
