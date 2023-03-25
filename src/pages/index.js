@@ -1,9 +1,9 @@
-export default function Home () {
+import Home from '../components/Home'
+
+export default function Index () {
   return (
     <>
-      <h1 className='text-3xl font-bold underline'>
-        Welcome to my portfolio
-      </h1>
+      <Home />
     </>
   )
 }
