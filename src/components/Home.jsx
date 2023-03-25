@@ -6,7 +6,7 @@ export default function Home () {
           Hello world!
         </span>
         <span className='text-6xl font-bold py-2'>
-          I'm <span className='text-blue-500'>Jon</span>
+          I'm <span className='text-blue-500'>Jon</span>,
         </span>
         <span className='text-6xl font-bold py-2'>
           a <span className='text-blue-500'>FullStack Developer</span>
